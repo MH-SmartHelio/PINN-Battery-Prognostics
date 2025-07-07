@@ -391,6 +391,7 @@ plt.plot(
     alpha=1.,
     label='PINN-DeepHPM (AdpBal)'
 )
+#plotting
 plt.legend(prop={'size': 8})
 plt.grid(True, linestyle="--", alpha=0.5)
 plt.xlim(min(results_SoH_CaseB_Baseline['Cycles']), max(results_SoH_CaseB_Baseline['Cycles']))
